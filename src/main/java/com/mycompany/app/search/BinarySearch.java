@@ -3,6 +3,7 @@ package com.mycompany.app.search;
 public class BinarySearch {
     /**
      * BinarySearch with O(Logn) Runtime
+     * @return index of target, -1 when target not found
      */
     public static int search(int[] sortedArray, int target){
        return recursiveSearch(sortedArray, target, 0, sortedArray.length - 1);
